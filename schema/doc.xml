@@ -1,0 +1,152 @@
+<an:akomaNtoso xmlns:fao="http://www.fao.org/ns/akn30" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:an="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 file:/D:/develop/github/legaldocml-akomantoso/csprd02-part2-specs/csprd02-part2-specs-schemas/akomantoso30.xsd">
+    <an:debateReport name="DC">
+        <an:meta>
+            <an:identification source="#cpam">
+                <an:FRBRWork>
+                    <an:FRBRthis value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1/main"/>
+                    <an:FRBRuri value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1"/>
+                    <an:FRBRdate date="2016-05-30" name="Work Date"/>
+                    <an:FRBRauthor href="#secretariat"/>
+                    <an:FRBRcountry value="fao"/>
+                    <an:FRBRsubtype value="DC"/>
+                    <an:FRBRnumber value="CL154_DC_1" showAs="CL 154/DC/1"/>
+                </an:FRBRWork>
+                <an:FRBRExpression>
+                    <an:FRBRthis value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1/eng@/main"/>
+                    <an:FRBRuri value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1/eng@"/>
+                    <an:FRBRdate date="2016-05-30" name="Expression Date"/>
+                    <an:FRBRauthor href="#reportOfficeAuthor"/>
+                    <an:FRBRlanguage language="eng"/>
+                </an:FRBRExpression>
+                <an:FRBRManifestation>
+                    <an:FRBRthis value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1/eng@/main.xml"/>
+                    <an:FRBRuri value="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1/eng@.akn"/>
+                    <an:FRBRdate date="2016-05-30" name="XML publication date"/>
+                    <an:FRBRauthor href="#XMLPublisher"/>
+                </an:FRBRManifestation>
+            </an:identification>
+            <an:publication date="2016-05-30" showAs="CL 154/DC/1" name="DC" number="CL154_DC_1"/>
+            <an:references source="#cpam">
+                <an:original eId="or1" href="/akn/un/debatereport/DC/fao/2016-05-30/CL154_DC_1" showAs="original"/>
+                <an:TLCOrganization eId="fao" href="/ontology/organization/fao/fao" showAs="FAO"/>
+                <an:TLCOrganization eId="cpam" href="/ontology/organization/fao/cpam" showAs="CPAM"/>
+                <an:TLCOrganization eId="council" href="/ontology/concept/fao/governingbodies/council" showAs="COUNCIL"/>
+                <an:TLCConcept eId="secretariat" href="/ontology/concept/fao/executivebodies/secretariat" showAs="Secretariat"/>
+                <an:TLCObject eId="jobnumber" href="/ontology/concept/fao/numbers/jobNumber" showAs="Job Number"/>
+                <an:TLCPerson eId="reportOfficeAuthor" href="/ontology/person/fao/reportOffice/author1" showAs="Report office author"/>
+                <an:TLCPerson eId="XMLPublisher" href="/ontology/person/fao/reportOffice/publisher1" showAs="Report office publisher"/>
+                <an:TLCConcept eId="startDayCouncil" href="/ontology/concept/fao/meetings/council/days/startDayDate" showAs="Start Day"/>
+                <an:TLCConcept eId="endDayCouncil" href="/ontology/concept/fao/meetings/council/days/endDayDate" showAs="End Day"/>
+                <an:TLCConcept eId="orderDayCouncil" href="/ontology/concept/fao/meetings/council/days/orderOfDayDate" showAs="Order of Day"/>
+                <an:TLCConcept eId="councilSession" href="/ontology/concept/fao/session" showAs="Session"/>
+                <an:TLCLocation eId="rome" href="/ontology/location/fao/rome" showAs="Rome"/>
+                <an:TLCObject eId="MTP-PWB" href="/ontology/object/fao/documents/mediumTermPlanAndProgrameOfWork" showAs="MTP-PWB"/>
+                <an:TLCConcept eId="repitem1" href="/ontology/concept/fao/CL154/item1" showAs="Item 1"/>
+                <an:TLCConcept eId="sessionItemNo" href="/ontology/concept/fao/numbers/itemNumber" showAs="Item No"/>
+            </an:references>
+            <an:proprietary source="#fao">
+                <fao:forCouncilSession>154</fao:forCouncilSession>
+                <fao:edVersion versionno="1" versiondate="2016-10-16T17:57:03.288+05:30"/>
+                <fao:edWorkflow state="imported" title="Imported"/>
+
+            
+                <fao:firstPageHeading>
+                    <fao:left class="firstLeft">
+                        <an:docDate date="2016-05-30">May 2016</an:docDate>
+                    </fao:left>
+                    <fao:right class="firstRight">
+                        <an:docNumber>CL 154/DC/1</an:docNumber>
+                    </fao:right>
+                    <fao:center>
+                        <an:img alt="FAO logo" class="gif" src="fao.gif"/>
+                    </fao:center>
+                </fao:firstPageHeading>
+                <fao:oddPageHeading>
+                    <fao:left class="oddLeft">
+                        <an:docNumber>CL 154/DC/1</an:docNumber>
+                    </fao:left>
+                    <fao:right class="oddRight">
+                        <fao:numPage class="numPage"/>
+                    </fao:right>
+                </fao:oddPageHeading>
+                <fao:evenPageHeading>
+                    <fao:left class="evenLeft">
+                        <fao:numPage class="numPage"/>
+                    </fao:left>
+                    <fao:right class="evenRight">
+                        <an:docNumber>CL 154/DC/1</an:docNumber>
+                    </fao:right>
+                </fao:evenPageHeading>
+                
+            </an:proprietary>
+        </an:meta>
+        <an:preface>
+            <an:p class="center">
+                <an:docAuthority eId="#council" refersTo="#council">COUNCIL</an:docAuthority>
+            </an:p>
+            <an:p class="center">
+                <an:location refersTo="#location">Rome</an:location>, <an:date date="2016-05-30" refersTo="#startDayCouncil">30 May</an:date> – <an:date date="2016-06-03" refersTo="#endDayCouncil">3 June 2016</an:date>
+            </an:p>
+        </an:preface>
+        <an:mainBody eId="body" refersTo="#agendaitem1">
+
+            <an:title fao:name="dc-item-para" eId="title_1">
+                <an:heading>Introductory Items<an:sup class="footnote">
+                        <an:authorialNote eId="ftn0" marker="1" placement="bottom">
+                            <an:p> CL 154/PV/1; CL 154/PV/</an:p>
+                        </an:authorialNote>
+                    </an:sup>
+                </an:heading>
+                <an:paragraph eId="title_1__para_1">
+                    <an:num title="1." fao:numberingscheme="SERIALNUMERIC" fao:decoratorbefore="" fao:decoratorafter=".">1.</an:num>
+                    <an:content>
+                        <an:p>The 154<an:sup>th</an:sup> Session of the Council was held in Rome
+                            from 30 May to 3 June 2016 under the Chairpersonship of Mr Wilfred
+                            Ngirwa, Independent Chairperson of Council.</an:p>
+                    </an:content>
+                </an:paragraph>
+            </an:title>
+
+            <an:title fao:name="dc-item-para" eId="title_2">
+                <an:heading>Statement by the Director-General<an:sup class="footnote">
+                        <an:authorialNote eId="ftn2" marker="2" placement="bottom">
+                            <an:p> CL 154/PV/1; CL 154/PV/</an:p>
+                        </an:authorialNote>
+                    </an:sup>
+                </an:heading>
+                <an:paragraph eId="title_2__para_1">
+                    <an:num title="2." fao:numberingscheme="SERIALNUMERIC" fao:decoratorbefore="" fao:decoratorafter=".">2.</an:num>
+                    <an:content>
+                        <an:p>The Director-General, Mr José Graziano da Silva, delivered a statement
+                            to Council.</an:p>
+                    </an:content>
+                </an:paragraph>
+            </an:title>
+
+            <an:title fao:name="dc-item-para" eId="title_3">
+                <an:heading>Item 1 – Adoption of the Agenda and Timetable<an:sup class="footnote">
+                        <an:authorialNote eId="ftn3" marker="3" placement="bottom">
+                            <an:p> CL 154/1; CL 154/INF/1 Rev.1; CL 154/INF/3; CL 154/PV/1; CL
+                                154/PV/ </an:p>
+                        </an:authorialNote>
+                    </an:sup>
+                </an:heading>
+                <an:paragraph eId="title_3__para_1">
+                    <an:num title="3." fao:numberingscheme="SERIALNUMERIC" fao:decoratorbefore="" fao:decoratorafter=".">3.</an:num>
+                    <an:content>
+                        <an:p>The Council noted the Declaration of Competence and Voting Rights
+                            presented by the European Union and <an:u>agreed</an:u> to add four
+                            Sub-items to the Agenda: Membership of the Finance Committee, Proposed
+                            World Fisheries University and Statement by a Representative of the FAO
+                            Staff Bodies, and <an:u>adopted</an:u> the Agenda and Timetable for the
+                            Session as amended. The Agenda is given in <an:i>Appendix</an:i>
+                            <an:i>A</an:i> to this Report.</an:p>
+                    </an:content>
+                </an:paragraph>
+
+
+            </an:title>
+        </an:mainBody>
+       
+    </an:debateReport>
+</an:akomaNtoso>
